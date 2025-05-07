@@ -50,7 +50,6 @@ function changeButtonColor(tabId) {
 
     buttons.forEach((btn) => {
         btn.style.backgroundColor = color;
-
         btn.onmouseenter = () => (btn.style.backgroundColor = hoverColor);
         btn.onmouseleave = () => (btn.style.backgroundColor = color);
     });
