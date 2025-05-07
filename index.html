@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Варианты дизайна сайта</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1>Ваш сайт — ваш стиль</h1>
+    <p class="description">Три уникальных дизайна — выберите тот, что говорит за вас</p>
+    <div class="tabs">
+      <div class="tab-buttons">
+        <button class="tab-link active" onclick="openTab(event, 'minimal')">Минимализм</button>
+        <button class="tab-link" onclick="openTab(event, 'premium')">Премиум</button>
+        <button class="tab-link" onclick="openTab(event, 'dynamic')">Динамичный</button>
+      </div>
+
+      <div id="minimal" class="tab-content active">
+        <div class="images">
+          <img src="/images/minimalism_1.png" class="design-image" alt="Минимализм" />
+          <img src="/images/minimalism_2.png" class="design-image" alt="Минимализм" />
+        </div>
+        <h2>Минимализм</h2>
+        <ul class="features">
+          <li>Простой и чистый интерфейс</li>
+          <li>Быстрая загрузка страниц</li>
+          <li>Идеален для портфолио или блога</li>
+          <li>Современный и легкий дизайн</li>
+        </ul>
+        <a href="#" class="button">Хочу такой сайт</a>
+      </div>
+
+      <div id="premium" class="tab-content">
+        <div class="images">
+          <img src="/images/premium_1.png" class="design-image" alt="Премиум" />
+          <img src="/images/premium_2.png" class="design-image" alt="Премиум" />
+        </div>
+        <h2>Премиум</h2>
+        <ul class="features">
+          <li>Роскошная визуальная подача</li>
+          <li>Анимации и интерактивные элементы</li>
+          <li>Индивидуальный подход к каждому блоку</li>
+          <li>Подходит для премиум-услуг и брендов</li>
+        </ul>
+        <a href="#" class="button">Хочу такой сайт</a>
+      </div>
+
+      <div id="dynamic" class="tab-content">
+        <div class="images">
+          <img src="/images/dynamic_1.png" class="design-image" alt="Динамичный" />
+          <img src="/images/dynamic_2.png" class="design-image" alt="Динамичный" />
+        </div>
+        <h2>Динамичный</h2>
+        <ul class="features">
+          <li>Яркие цвета и смелые шрифты</li>
+          <li>Активные анимации при прокрутке</li>
+          <li>Подходит для стартапов и молодежной аудитории</li>
+          <li>Максимальная вовлеченность посетителя</li>
+        </ul>
+        <a href="#" class="button">Хочу такой сайт</a>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
